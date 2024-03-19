@@ -17,7 +17,7 @@ spring:
 
 eureka:
   client:
-    register-with-eurka: "{chiper}ba53cd273a79e49665867d370daa528d8e54af62a1838050d68b46608e8297f9"
-    fetch-registry: "{chiper}ba53cd273a79e49665867d370daa528d8e54af62a1838050d68b46608e8297f9"
+    register-with-eurka: true
+    fetch-registry: true
     service-url:
       defaultZone: "{chiper}66c5de6d18ac85f57b5f2d1bc95dfc84ab40b31ef426916ccd32b46ee144eefd8a1fb9a9e0c250f412bd75aa661afea7"
