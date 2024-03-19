@@ -8,8 +8,8 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://127.0.0.1:3306/maria
-    username: goodjob
-    password: nononononong
+    username: taylee
+    password: new1234!
 
   jpa:
     hibernate:
