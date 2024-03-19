@@ -1,3 +1,6 @@
+server:
+  port: 9090
+
 spring:
   application:
     name: database1
@@ -18,3 +21,13 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+      
+# actuator 설정
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: false
