@@ -1,0 +1,23 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: database1
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/maria
+    username: goodjob
+    password: nononononong
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  client:
+    register-with-eurka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
