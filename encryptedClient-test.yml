@@ -1,5 +1,5 @@
 server:
-  port: "{chiper}6e9c2d0dcbdac7c301703c55c446656466c47d24e6bb104c500c54ef133d6837"
+  port: {chiper}6e9c2d0dcbdac7c301703c55c446656466c47d24e6bb104c500c54ef133d6837
 
 spring:
   application:
