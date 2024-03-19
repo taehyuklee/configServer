@@ -1,0 +1,23 @@
+server:
+  port: "{chiper}6e9c2d0dcbdac7c301703c55c446656466c47d24e6bb104c500c54ef133d6837"
+
+spring:
+  application:
+    name: "{cipher}923fa09f1eebf8f0392ea5f5aec66a68cc3b274788e75a0987254ee4474be4f1"
+
+  datasource:
+    driver-class-name: "{cipher}aaf978f177f531657d7a671fd650436a170f544acbc0092dd24665664720473e56d2e6a9b841cba1ef535136dcd92e79" 
+    url: "{chiper}82c1b5e1d43f1ba16a802f0b999c85b8d5ec33fee31570ec66db8ee7d46b731a"
+    username: "{chiper}90ed4ef7f85ccd18f1aa6d8b43119f886e67f11e2248784f75e964142f585021"
+    password: "{chiper}dc5c7f4944c6e64274322cc166d305bb1a859ea3ae2eafc5b5109230dddb240b"
+
+  jpa:
+    hibernate:
+      ddl-auto: "{chiper}2989c9a216a752b5c31b82867aa2321df3d4db61c8088f48dfe5caa60f3cc985"
+
+eureka:
+  client:
+    register-with-eurka: "{chiper}ba53cd273a79e49665867d370daa528d8e54af62a1838050d68b46608e8297f9"
+    fetch-registry: "{chiper}ba53cd273a79e49665867d370daa528d8e54af62a1838050d68b46608e8297f9"
+    service-url:
+      defaultZone: "{chiper}cf32e1ac4e91a1b8b0325b19cdc540e30327aa391c7cb9f57fe9729498af3163"
